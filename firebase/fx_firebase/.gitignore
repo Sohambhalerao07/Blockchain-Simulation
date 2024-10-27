@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Firebase files
+firebase/.env
+firebase/*.json
+
+# Build output
+dist/
+build/
+target/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Other
+*.class
+*.jar
+*.war
+*.ear
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.lock
+*.pid
+*.seed
+
+# Ignore any secret or credential files
+*.json
+!firebase/fx_firebase/target/classes/fx-auth-fb.json
