@@ -28,6 +28,8 @@ Ensure you have Node.js installed on your system. You can download it from here.
 Clone the repository
 git clone https://github.com/your-username/blockchain-simulation.git
 cd blockchain-simulation
+
+Install the Tailwind css dependencies if required on your system from here : https://tailwindcss.com/docs/installation/using-vite
 Install dependencies
 npm install
 Run the development server
@@ -37,28 +39,15 @@ Run the frontEnd
 npm run dev
 After running this command, open your browser and navigate to http://localhost:PORT to view the application.
 
-Features and How to Use
+Features and How to Use:
+
 Main Page: The main page displays the current blockchain and allows users to interact with it.
 Mining: Users can mine new blocks to add to the blockchain by clicking the "Mine" button.
 Block Visualization: The blockchain is displayed in a visual format where each block is shown with its hash and transaction data.
 Modifying Options: Modify certain blockchain parameters like mining difficulty or transaction data.
 Project Structure
-Here’s a quick look at the project structure:
 
-blockchain-simulation/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Block.jsx
-│   │   ├── Button.jsx
-│   │   ├── MainPage.jsx
-│   │   └── NavBar.jsx
-│   ├── App.jsx
-│   ├── server.js
-│   └── style.css
-├── package.json
-└── tailwind.config.js
+
 App.jsx: The main entry point of the application, rendering the entire application.
 components/: Contains all the UI components like Block.jsx, Button.jsx, MainPage.jsx, and NavBar.jsx.
 style.css: Custom styles for the application (tailwind-based).
@@ -73,6 +62,7 @@ Create a branch for your changes (git checkout -b feature-branch).
 Commit your changes (git commit -m "Description of changes").
 Push to the branch (git push origin feature-branch).
 Open a Pull Request.
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
